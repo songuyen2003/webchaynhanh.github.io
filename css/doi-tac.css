@@ -1,0 +1,30 @@
+.danh-sach-doi-tac {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.hinh-anh-doi-tac {
+    width: 200px;
+    padding: 12px;
+    background-color: rgba(0, 183, 255, 0.055);
+    transition: all 0.3s;
+}
+
+.hinh-anh-doi-tac:hover {
+    transform: translateY(-5px);
+    background-color: rgba(0, 183, 255, 0.185);
+}
+
+.noi-dung-doi-tac {
+    text-align: center;
+    background-color: rgba(70, 59, 59, 0.062);
+}
+
+.noi-dung {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #999;
+}

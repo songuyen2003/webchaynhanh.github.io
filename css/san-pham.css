@@ -1,0 +1,46 @@
+.danh-muc-sach {
+    display: grid;
+    grid-template-columns: 25fr 75fr;
+}
+
+.danh-sach {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.sach {
+    text-align: center;
+}
+
+.noi-dung {
+    text-align: center;
+    margin-right: 24px;
+}
+
+.noi-dung-sach {
+    line-height: 40px;
+    border: solid 1px #999;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.noi-dung-sach:hover {
+    background-color: rgba(9, 157, 255, 0.295);
+}
+
+.logo-sach {
+    width: 200px;
+}
+
+.thong-tin-sach {
+    width: 250px;
+    height: 400px;
+    padding: 24px;
+    background-color: rgba(4, 0, 255, 0.219);
+    transition: all 0.4s;
+}
+
+.thong-tin-sach:hover {
+    transform: translateY(-7px);
+}

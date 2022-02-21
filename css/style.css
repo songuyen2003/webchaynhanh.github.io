@@ -1,0 +1,178 @@
+    a {
+        text-decoration: none;
+        color: rgba(43, 34, 34, 0.856);
+    }
+    
+    body {
+        font-family: "Rubik", sans-serif;
+    }
+    
+    .container {
+        /* kích thước tối đa cho website*/
+        max-width: 1500px;
+        padding: 24px;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 26px;
+    }
+    
+    .logo {
+        width: 15%;
+    }
+    
+    .input {
+        width: 400px;
+        height: 40px;
+        border-radius: 15px;
+        border: solid 1px #333;
+        background-color: rgba(11, 47, 146, 0.445);
+    }
+    
+    .logo-tim-kiem {
+        height: 40px;
+        /* tạo thao tác click */
+        cursor: pointer;
+        /* chuyển logo thấp xuống 14px */
+        transform: translateY(14px);
+    }
+    
+    .menu-gio-hang {
+        display: flex;
+        background-color: rgba(66, 138, 38, 0.363);
+        border-radius: 15px;
+        transform: translateY(5px);
+    }
+    
+    .menu-lien-he {
+        font-size: 20px;
+        font-weight: 400;
+        border-right: solid 1px;
+        padding: 6px;
+        cursor: pointer;
+    }
+    
+    .menu-lien-he:last-child {
+        border: 0;
+    }
+    
+    .menu-chinh {
+        /* flex 2 thành phần logo và tim-kiem đề chúng chung 1 hàng thẳng , mà không xuống dòng*/
+        display: flex;
+        /* cho thành phần logo va tim-kiem ở giữa */
+        align-items: center;
+        justify-content: left;
+        gap: 24px;
+        background-color: rgba(7, 89, 104, 0.199);
+        margin-bottom: 16px;
+    }
+    
+    .btn {
+        font-size: 18px;
+        padding: 12px 24px;
+        color: rgba(43, 34, 34, 0.856);
+        background-color: rgba(26, 109, 124, 0.822);
+        border: 0 solid;
+        cursor: pointer;
+    }
+    
+    .sub-menu {
+        display: none;
+        text-decoration: none;
+        list-style: none;
+        position: absolute;
+        transform: translateY(75px);
+        background-color: rgba(81, 255, 0, 0.562);
+    }
+    
+    .item {
+        font-size: 24px;
+        line-height: 50px;
+        border-bottom: solid 1px rgba(255, 196, 0, 0.904);
+        cursor: pointer;
+        position: relative;
+        transition: all 0.3s;
+    }
+    
+    .item:hover {
+        background-color: rgba(0, 119, 255, 0.5);
+    }
+    
+    .btn:hover~.sub-menu {
+        display: block;
+    }
+    
+    .sub-menu:hover {
+        display: block;
+    }
+    
+    .banner {
+        text-align: center;
+    }
+    
+    .img {
+        width: 100%;
+    }
+    
+    .tieu-de-san-pham {
+        width: 600px;
+        font-size: 28px;
+        font-weight: 400;
+        padding: 12px;
+        background-color: rgba(26, 109, 124, 0.822);
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 15px;
+        margin-top: 15px;
+        color: #333;
+    }
+    
+    .danh-sach-san-pham {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+    
+    .san-pham {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px;
+        background: linear-gradient(rgba(170, 22, 22, 0.342), rgba(26, 209, 9, 0.144));
+        margin-bottom: 42px;
+        transition: all 0.3s;
+    }
+    
+    .san-pham:hover {
+        transform: translateY(-7px);
+    }
+    
+    .ten-san-pham {
+        font-size: 32px;
+        font-weight: 400;
+        color: rgba(255, 72, 0, 0.753);
+    }
+    
+    .hinh-anh-san-pham {
+        width: 300px;
+    }
+    
+    .gia {
+        font-size: 24px;
+        color: rgba(255, 72, 0, 0.932);
+    }
+    
+    .footer {
+        height: 40vh;
+        margin: 24px 0;
+        background-color:rgba(7, 89, 104, 0.199);
+    }
+    
+    .thong-tin-footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 24px;
+    }

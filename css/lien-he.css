@@ -1,0 +1,33 @@
+        .nut-lien-he {
+            display: flex;
+            gap: 24px;
+            margin: 24px;
+        }
+        
+        .lien-he {
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .thong-tin {
+            font-size: 24px;
+            font-weight: 400;
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .mail {
+            transform: translateX(240px);
+        }
+        
+        .nguoi-dung {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+        }
+        
+        .textarea {
+            height: 20vh;
+            margin-bottom: 24px;
+        }
